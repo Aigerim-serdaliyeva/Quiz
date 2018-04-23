@@ -1,0 +1,377 @@
+@import './base';
+
+html, body {
+	// height: 100%;
+	margin: 0;
+}
+
+body {
+	min-width: 320px;
+	position: relative;
+	color: $text_color;
+	line-height: 1.2;
+	font-size: $font_size;
+   font-weight: normal;
+   font-family: $default_family;
+	overflow-x: auto;
+   opacity: 1;
+   background: #efefef;
+}
+
+.page-top {
+	position: fixed;
+	bottom: 20px;
+	right: -100px;
+	z-index: 99;
+	cursor: pointer;
+	@include circle(50px);
+	background-color: $accent;
+	font-size: 25px;
+	color: #ffffff;
+	opacity: .3;
+	transition: all .5s ease-out;	
+
+	&.active {		
+		right: 20px;			
+	}
+
+	&:hover {
+		opacity: 1;
+	}
+}
+
+.page-wrapper {
+    overflow: hidden;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.link {
+    font-weight: bold;
+}
+
+.logo {
+    display: inline-block;
+}
+
+.phone-block {
+    text-align: center;
+    a {
+        display: block;
+        margin: 0;
+    }
+
+    .link {
+        margin-top: 10px;
+        display: inline-block;
+        text-decoration: underline;
+    }
+}
+
+.text-phone {
+   font-size: 16px;
+   font-weight: 500;
+   color: $accent;
+}
+
+.header {
+   position: fixed;
+   background-color: #efefef;
+   top: 0;
+   width: 100%;
+   z-index: 98;
+   padding: 10px 0;
+   font-size: 16px;
+
+   &-title {
+      font-weight: normal;
+      max-width: 200px;
+   }
+
+   &-content {
+      display: flex;
+      align-items: center;
+   }
+
+   &-phone, &-sale {
+      p {
+         margin: 0;
+      }
+   }
+   &-phone {
+      margin-right: 75px;
+   }
+   .logo {
+      margin-right: 25px;
+   }
+   .button {
+      margin-left: 35px;
+   }
+}
+
+.footer {
+    background-color: $accent;
+   &-title {
+      font-weight: 400;
+      max-width: 220px;
+      font-size: 14px;
+      margin: 0;
+   }
+   .logo {
+      margin-right: 30px;
+   }
+    &-content {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        padding: 5px 0;
+    }
+
+   .vopros-button {
+      margin: 0 0 0 50px;
+      .vopros {
+      margin-bottom: 10px;
+      font-size: 16px;
+      text-align: center;
+      }
+      .button {
+         width: 226px;
+      }
+   }
+    
+
+}
+
+
+.section {
+    text-align: center;
+    padding: 40px 0 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+    &-title {
+        font-family: $title_family;
+        font-size: 30px;
+
+        font-weight: bold;
+        color: $title_color;
+        margin: 0 auto 40px;
+        text-align: center;
+
+        .inverse & {
+            color: #fff;
+        }
+    }
+
+   &-main {
+      padding-top: 160px;
+      &-content {
+         display: flex;
+         justify-content: space-between;
+      }
+      .main {
+         display: flex;
+         flex-direction: column;
+         max-width: 610px;
+         text-align: left;
+         &-title {
+            font-size: 36px;
+            font-weight: 500;
+            margin-bottom: 30px;
+            span {
+               color: $accent;
+            }
+         }
+         .button {
+            font-size: 24px;
+         }
+
+         &-footer {
+            display: flex;
+            justify-content: space-between;
+            margin-left: -40px;
+         }
+         &-block {
+            background-color: $accent;
+            text-align: center;
+            border-bottom-left-radius: 0px !important;
+            border-bottom-right-radius: 0px !important;
+
+            &-1 {
+               padding: 15px 20px;
+               border-radius: 80px;
+            }
+            &-2 {
+               padding: 15px 10px;
+               border-radius: 120px;
+            }
+            &-title {
+               font-size: 48px;
+               font-weight: 900;
+               color: #fff;
+            }
+            &-text {
+               font-size: 16px;
+            }
+         }
+      }
+   }
+
+}
+
+#thanks-page {
+   .header {
+      background: transparent;
+   }
+
+   .page-wrapper {
+      background-image: url('../img/thanks-back-top.png');
+      background-repeat: no-repeat;
+      background-size: auto;
+      background-position: right top;
+   }
+
+   .section-thanks {
+      padding: 200px 0 0 0;
+      flex-grow: 1;
+      text-align: left;
+   
+      &-content {
+         display: flex;
+         justify-content: space-between;         
+      }
+   
+      &-block {
+         max-width: 400px;
+      }
+   
+      &-text {
+         font-size: 24px;
+         margin: 25px 0 60px;
+      }
+   
+      &-link {
+         text-decoration: underline;
+      }
+   }
+}
+
+.modal {
+  text-align: center;
+  background-image: url('../img/modal-back.png');
+  background-repeat: no-repeat;
+  background-position: center bottom;
+
+  &[data-remodal-id="obsudit-sodrudni4estvo"] {
+    padding-bottom: 20px;
+  }
+
+  &-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 50px;
+  }
+
+  form {
+    margin: 0 auto;
+    width: 220px;
+  }
+
+  .input-div {
+    margin-bottom: 10px;
+  }
+
+  .button {
+    width: 100%;
+    margin: 10px 0;
+  }
+
+  &[data-remodal-id="zadat-vopros"] {
+    padding-bottom: 20px;
+    max-width: 750px;
+    background-image: url('../img/remodal-back.png');
+    
+    form {
+      width: auto;
+      max-width: 535px;
+      margin: 0 auto;
+    }
+
+    .textarea {
+      flex-grow: 1;
+      resize: none;
+    }
+
+    .input-div {
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+
+  &-form {
+    display: flex;
+    margin-bottom: 5px;
+  }
+
+  &-left {
+    margin-right: 20px;
+  }
+
+  &-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .button {
+      width: auto;
+    }
+  }
+}
+
+.more {
+   max-width: 880px;
+   padding: 0;
+
+   &-content {
+      display: flex;
+      align-items: flex-start;
+      padding: 35px 50px 35px 50px;
+   }
+
+   &-img {
+     margin-right: 70px;
+   }
+
+   &-title {
+      font-size: 20px;
+      font-weight: bold;
+      margin-bottom: 10px;
+   }
+
+   &-trademarks {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+      img {
+         margin-right: 20px;
+      }
+   }
+   .form {
+      background-color: $accent;
+      padding: 10px 35px;
+
+      .input-div {
+        max-width: 160px;       
+        margin-right: 10px; 
+      }
+
+      .button {
+        white-space: nowrap;
+      }
+   }
+}
+
+@import './_media';

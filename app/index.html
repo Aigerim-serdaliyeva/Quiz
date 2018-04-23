@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="utf-8">
+
+	<title></title>
+	<meta name="description" content="">
+	<meta name="keywords" content="">
+
+	<meta name="format-detection" content="telephone=no">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<meta property="og:image" content="path/to/image.jpg">
+	<link rel="shortcut icon" href="img/favicon.ico?v=8" type="image/x-icon">
+
+	<style>body { opacity: 0; overflow-x: hidden; } html { background-color: #fff; }</style>
+</head>
+
+<body>
+    <div class="page-wrapper">
+
+		<div class="page-top"><i class="fa fa-angle-double-up"></i></div>
+
+		<header class="header">
+         <div class="container">
+            <div class="header-content">
+               <a href="/" class="logo">
+                  <img src="./img/logo.png" alt="">
+               </a>
+               <h3 class="header-title">
+                  Автоматизация торговли 
+                  по всему Казахстану
+               </h3>
+
+               <div class="grow"></div>
+
+               <div class="header-phone  hidden-xxs">
+                  <p>Тех. поддержка</p>
+                  <a href="tel:+77054564671" class="text-phone">+7 705 456-46-71</a>
+               </div>
+
+               <div class="header-sale hidden-xxs">
+                  <p>Отдел продаж</p>
+                  <a href="tel:+77273573242" class="text-phone">+7 (727) 357-32-42</a> <br>
+                  <a href="tel:+77772844461" class="text-phone">+7 777 284-44-61</a>
+               </div>
+
+               <a href="#" class="button" data-remodal-target="zvonok-modal">Заказать звонок</a>
+               
+               
+               <button class="hamburger hamburger--elastic hamburger--accessible">
+                  <span class="hamburger-box">
+                     <span class="hamburger-inner"></span>
+                  </span>
+               </button>
+            </div>
+  
+         </div>
+		</header>      
+
+		  
+      <section class="section section-main">
+         <div class="container">
+            <div class="section-main-content">
+               <img src="./img/mini-test.png" alt="">
+               <div class="main">
+                  <div class="main-title">
+                     Пройдите <span>мини-тест</span>, 
+                     узнайте, какое оборудование необходимо
+                     <span>для автоматизации торговли</span> в 
+                     Вашем бизнесе и получите подарки
+                  </div>
+                  <div class="button">Пройти мини-тест и получить подарки</div>
+                  <div class="grow"></div>
+                  <div class="main-footer">
+                     <div class="main-block main-block-1">
+                        <div class="main-block-title">357</div>
+                        <div class="main-block-text">успешно закрытых 
+                              проектов за 5 лет</div>
+                     </div>
+                     <div class="main-block main-block-2">
+                        <div class="main-block-title">1,5 млн.</div>
+                        <div class="main-block-text">сэкономлены издержки каждому клиенту 
+                              спустя 3 месяца  после автоматизации</div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+
+		
+	</div>
+	
+   <div class="remodal remodal-small modal" data-remodal-id="zvonok-modal" data-remodal-options="hashTracking: true">
+      <button data-remodal-action="close" class="remodal-close"></button>
+
+      <div class="modal-title">
+          Оставьте заявку <br> и наш консультант перезвонит Вам
+      </div>
+      
+      <form action="/mail.php" method="post">
+        <input type="hidden" name="info" value="Заказать звонок">
+        <div class="input-div">
+           <img src="./img/name-icon.png" alt="" class="form-icon">
+           <input type="text" class="input" name="name" placeholder="Имя">
+        </div>
+        <div class="input-div">
+           <img src="./img/phone-icon.png" alt="" class="form-icon">
+           <input type="tel" class="input" name="phone" placeholder="Номер телефона*" required>
+           <span class="error-message">Заполните это поле</span>
+        </div>
+
+        <button class="button ajax-submit" type="submit" id="zakazat_zvonok">Заказать звонок</button>
+     </form>
+
+     <div class="form-info">*Ваши данные не будут переданы третьим лицам</div>
+
+   </div>
+
+										
+	<link rel="stylesheet" href="./css/libs.min.css">
+	<link rel="stylesheet" href="./css/main.min.css">
+	<script src="./js/libs.min.js"></script>
+	<script src="./js/main.min.js"></script>
+    
+</body>
+</html>
