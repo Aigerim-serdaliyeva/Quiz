@@ -91,7 +91,7 @@
          </div>
       </section>
 
-      <section class="section section-podarok">
+      <section class="section section-podarok" id="hide">
          <div class="container">
             <div class="section-podarok-content">
                <div class="podarok">
@@ -159,7 +159,126 @@
          </div>
       </section>
 
-		
+      <section class="section section-contact" id="hide">
+         <div class="container">
+            <div class="section-contact-title">
+               Последний этап.  <br>
+               Укажите свои контактные данные, по которым Вы можете получить подарок и узнать результат теста <br>
+               <span>Специальное предложение только для Вас</span> <br>
+               Закажите автоматизацию торговли у нас и получите подарок из 3-х вариантов ниже 
+            </div>
+            <div class="section-contact-content">
+
+               <div class="podarok-variant">
+                  <div class="variant">
+                     <img src="./img/skidka.png" alt="">
+                     <div class="variant-title">
+                        Скидка 20% 
+                        на оборудование
+                     </div>
+                  </div>
+                  <div class="variant">
+                     <img src="./img/printer-4ek.png" alt="">
+                     <div class="variant-title">
+                        Принтер чеков
+                     </div>
+                  </div>
+                  <div class="variant">
+                     <img src="./img/skaner.png" alt="">
+                     <div class="variant-title">
+                        Сканер штрихкодов
+                     </div>
+                  </div>
+                  <div class="podarok-variant-info">* Спецпредложение действует до 31 мая 2018 года</div>
+               </div>
+
+               <div class="section-contact-form">
+                  <div class="section-contact-form-title">Успейте выбрать подарок 
+                        и закажите бесплатную консультацию нашего специалиста</div>
+
+                  <form action="/mail.php" method="post">
+                     <input type="hidden" name="info" value="Успейте выбрать подарок и закажите бесплатную консультацию нашего специалиста">
+                     <div class="input-div">
+                        <input type="text" class="input" name="name" placeholder="Введите Имя">
+                     </div>
+                     <div class="input-div">
+                        <input type="tel" class="input" name="phone" placeholder="Введите Телефон*" required>
+                        <span class="error-message">Заполните это поле</span>
+                     </div>
+                     <div class="input-div">
+                        <input type="email" class="input" name="email" placeholder="Введите E-mail *" required>
+                        <span class="error-message">Заполните это поле</span>
+                     </div>                     
+
+                     <div class="button-div">
+                        <button class="button ajax-submit" type="submit" id="uznat_rezultat_i_polu4it_4ek_list_i_uspet_zakrepit_za_soboi_podarok_po_spespredlojeniu">
+                        Узнать результат, получить чек-лист и успеть <br>
+                        закрепить за собой подарок по спецпредложению</button>
+                        <button class="button ajax-submit" type="submit" id="uznat_rezultat_i_polu4it_4ek_list">Узнать результат <br>
+                        и получить чек-лист</button>
+                     </div>                     
+                  </form>
+
+                  <div class="form-info">* Ваши данные останутся в безопасности и не будут переданы третьим лицам  </div>
+               </div>
+
+            </div>
+         </div>
+      </section>
+      
+      <section class="section section-spisok">
+         <div class="container">
+            <div class="section-title">Ниже приведен список необходимого оборудования 
+            для автоматизации торговли в Вашем кафе/ресторане</div>
+            <div class="section-spisok-content">
+               <div class="spisok">
+                  <img src="./img/pos-system.jpg" alt="">
+                  <div class="spisok-title">
+                     Pos-система для <br>
+                     каждой кассовой зоны
+                  </div>
+               </div>
+               <img src="./img/plus.png" alt="" class="plus">
+               <div class="spisok">
+                  <img src="./img/po-sklad.jpg" alt="">
+                  <div class="spisok-title">
+                     ПО на склад
+                  </div>
+               </div>
+               <img src="./img/plus.png" alt="" class="plus">
+               <div class="spisok">
+                  <img src="./img/printer-kuxnya.jpg" alt="">
+                  <div class="spisok-title">
+                     Принтер чеков <br>
+                     для кухни
+                  </div>
+               </div>
+               <img src="./img/plus.png" alt="" class="plus">
+               <div class="spisok">
+                  <img src="./img/printer-kassa.jpg" alt="">
+                  <div class="spisok-title">
+                     Принтер чеков для <br>
+                     кассовой зоны
+                  </div>
+               </div>
+               <img src="./img/plus.png" alt="" class="plus">
+               <div class="spisok">
+                  <img src="./img/avtomazizasia.jpg" alt="">
+                  <div class="spisok-title">
+                     Программное обеспечение <br>
+                     для автоматизации
+                  </div>
+               </div>
+            </div>
+            <div class="section-spisok-text">
+               Приобрести все это оборудование Вы можете у нас по самым выгодным ценам, а также получить качественную услугу 
+               по установке и настройке всего оборудования, оптимизации автоматизации под лицензионную программу Microinvest Склад Pro
+            </div>
+            <a href="#" class="go-over">Перейти на главную</a>
+         </div>
+      </section>
+
+
 	</div>
 	
    <div class="remodal remodal-small modal" data-remodal-id="zvonok-modal" data-remodal-options="hashTracking: true">

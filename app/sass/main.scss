@@ -158,8 +158,7 @@ body {
     &-title {
         font-family: $title_family;
         font-size: 30px;
-
-        font-weight: bold;
+        font-weight: 500;
         color: $title_color;
         margin: 0 auto 40px;
         text-align: center;
@@ -337,6 +336,130 @@ body {
          padding: 15px;
          border-radius: 30px;
          box-shadow: 2.5px 4.33px 9px 0px rgba(0, 0, 0, 0.5);
+      }
+   }
+
+   &-contact {
+      padding-top: 160px;
+      &-title {
+         font-size: 24px;
+         font-weight: 700;
+         margin-bottom: 40px;
+         span {
+            font-weight: 900;
+            color: $accent;
+         }
+      }
+      &-content {
+         display: flex;
+         justify-content: space-between;
+      }
+      .podarok-variant {
+         width: 30%;
+         margin-top: 120px;
+         &-info {
+            font-size: 14px;
+            color: #555555;
+            margin-top: 65px;
+         }
+         .variant {
+            display: flex;
+            align-items: center;
+            padding-left: 50px;
+            position: relative;
+            margin-bottom: 20px;
+            &::before {
+               position: absolute;
+               content: "";
+               width: 26px;
+               height: 24px;
+               left: 0;
+               top: 50%;
+               transform: translateY(-50%);
+               border: 3px solid $accent;
+            }
+            &-title {
+               font-size: 14px;
+            }
+            img {
+               margin-right: 20px;
+            }
+         }
+      }
+      &-form {
+         width: 65%;
+         &-title {
+            font-size: 24px;
+            font-weight: 500;
+            color: $accent;
+            text-align: left;
+            margin-bottom: 35px;
+            position: relative;
+            &::before {
+               content: "";
+               position: absolute;
+               width: 288px;
+               height: 105px;
+               background-image: url('../img/strelka.png');
+               left: -300px;
+               top: -10px;
+            }
+         }
+         .button-div {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 20px;
+            .button {
+               padding: 15px 40px;
+               border-radius: 40px;
+            }
+         }
+         .form-info {
+            text-align: left;
+            color: #555555;
+         }
+      }
+   }
+
+   &-spisok {
+      padding-top: 160px;
+      &-content {
+         display: flex;
+         justify-content: space-between;
+         align-items: flex-start;
+         margin-bottom: 60px;
+      }
+      .plus {
+         margin-top: 40px;
+      }
+      &-text {
+         font-weight: 500;
+      }
+      .go-over {
+         text-align: left;
+         color: $accent;
+         font-weight: 500;
+         position: relative;
+         text-decoration: underline;
+         &::before {
+            content: "";
+            position: absolute;
+            background-image: url('../img/go-over.png');
+            width: 32px;
+            height: 16px;
+            left: -37px;
+            top: 50%;
+            transform: translateY(-50%);
+         }
+      }
+      .spisok {
+         width: 180px;
+         img {
+            margin-bottom: 12px;
+         }
+         &-title {
+            font-size: 14px;
+         }
       }
    }
 

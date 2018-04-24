@@ -68,12 +68,12 @@ p {
 }
 
 .text {
-    &-center {
-        text-align: center;
-    }
-    &-right {
-        text-align: right;
-    }
+   &-center {
+      text-align: center;
+   }
+   &-right {
+      text-align: right;
+   }
 }
 
 .hamburger {
@@ -82,7 +82,7 @@ p {
 }
 
 .grow {
-    flex-grow: 1;
+   flex-grow: 1;
 }
 
 .button {
@@ -114,29 +114,32 @@ p {
 .input-div {
   position: relative;
   
-  img {
-    position: absolute;
-    top: 20px;
-    left: 17px;
-    transform: translate(-50%, -50%);
- }
+   img {
+      position: absolute;
+      top: 20px;
+      left: 17px;
+      transform: translate(-50%, -50%);
+   }
 
-  .input {
-    width: 100%;  
-  }
+   .input {
+      width: 100%;  
+      border: 2px solid $accent;
+      margin-bottom: 20px;
+      border-radius: 30px;
+   }
 }
 
 .input, .textarea {
-    background: transparent;
-    color: #000;
-    font-size: 14px;
-    line-height: inherit;
-    border: none;
-    background-color: #fff;
-    font-family: $default_family, sans-serif;
-    padding: 12px 20px 12px 35px;   
+   background: transparent;
+   color: #000;
+   font-size: 16px;
+   line-height: inherit;
+   border: none;
+   background-color: #fff;
+   font-family: $default_family, sans-serif;
+   padding: 12px 20px 12px 35px;   
   
-    &.error {
+   &.error {
 		border-color: red;
 		color: red;
 
@@ -146,11 +149,11 @@ p {
 	}
 
 	&+.error-message {
-    display: none;
-    text-align: left;
-    color: red;
-    padding-left: 35px;
-    margin-top: 5px;
+      display: none;
+      text-align: left;
+      color: red;
+      padding-left: 35px;
+      margin-top: 5px;
 	}
 
 	&::-webkit-input-placeholder {
@@ -166,9 +169,9 @@ p {
 	}
 	
 	&:-ms-input-placeholder {
-    color: #828181;
-    font-weight: 300;
-		opacity: 1;
+      color: #828181;
+      font-weight: 300;
+      opacity: 1;
 	}
 	
 	&.error::-webkit-input-placeholder {
@@ -185,37 +188,38 @@ p {
 }
 
 .text {
-    &-phone {
-        text-decoration: none;
-        white-space: nowrap;
-        cursor: pointer;
-    }
+   &-phone {
+      text-decoration: none;
+      white-space: nowrap;
+      cursor: pointer;
+   }
 
-    &-center {
-        text-align: center;
-    }
+   &-center {
+      text-align: center;
+   }
 }
 
 .form {
   text-align: left;
 
   &-info {
-    font-size: 10px;
+    font-size: 12px;
   }
 
-  form {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-  }
+   form {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+   }
 
-  .input-div {
-    margin-right: 20px;
-  }
+   .input-div {
+      margin-right: 20px;
+   }
 
-  .input-div, .button {
-    margin-bottom: 10px;
-  }
+   .input-div, .button {
+      margin-bottom: 10px;
+   }
+
 }
 
 
