@@ -110,6 +110,10 @@ body {
    }
 }
 
+#hide {
+   display: none;
+}
+
 .footer {
     background-color: $accent;
    &-title {
@@ -200,11 +204,12 @@ body {
             border-bottom-right-radius: 0px !important;
 
             &-1 {
-               padding: 15px 20px;
+               padding: 10px 20px;
                border-radius: 80px;
+               margin-right: 30px;
             }
             &-2 {
-               padding: 15px 10px;
+               padding: 10px 20px;
                border-radius: 120px;
             }
             &-title {
@@ -216,6 +221,120 @@ body {
                font-size: 16px;
             }
          }
+      }
+   }
+
+   &-podarok {
+      padding-top: 160px;
+      &-content {
+         display: flex;
+         justify-content: space-between;
+         max-width: 1050px;
+         margin: 0 auto;
+      }
+      .podarok {
+         width: 50%;
+         &-1 {
+            width: 240px;
+            margin-bottom: 10px;
+            &-title {
+               font-weight: 500;
+               margin-bottom: 12px;
+               position: relative;
+               &::after {
+                  position: absolute;
+                  content: "";
+                  width: 21px;
+                  height: 29px;
+                  background-image: url('../img/castle.png');
+                  top: 50%;
+                  right: 50px;
+                  transform: translateY(-50%);
+               }
+            }
+            img {
+               margin-bottom: 10px;
+            }
+         }
+         &-2 {
+            max-width: 320px;
+            margin: 0 0 0 auto;
+            &-title {
+               font-weight: 500;
+               margin-bottom: 15px;
+               position: relative;
+               &::after {
+                  position: absolute;
+                  content: "";
+                  width: 21px;
+                  height: 29px;
+                  background-image: url('../img/castle.png');
+                  top: 50%;
+                  right: 90px;
+                  transform: translateY(-50%);
+               }
+            }
+            &-text {
+               margin-bottom: 15px;
+            }
+            .podarok-variant {
+               display: flex;
+               justify-content: space-between;
+            }
+            .variant {
+               &-title {
+                  font-size: 12px;
+               }
+            }
+         }
+      }
+      .podarok-vopros {
+         width: 45%;
+         background-color: $accent;
+         padding: 30px 20px;
+         &-title {
+            font-size: 24px;
+            font-weight: 900;
+            color: #fff;
+            margin-bottom: 30px;
+         }
+         &-text {
+            font-size: 24px;
+            font-weight: 900;
+            color: #fff;
+         }
+         ul {
+            padding: 0;
+         }
+         li {
+            list-style: none;
+            text-align: left;
+            position: relative;
+            padding-left: 50px;
+            margin-bottom: 25px;
+            &::before {
+               position: absolute;
+               content: "";
+               width: 26px;
+               height: 24px;
+               left: 0;
+               top: 50%;
+               transform: translateY(-50%);
+               border: 3px solid #fff;
+            }
+         }
+      }
+      .polu4it-podarok {
+         width: 400px;
+         height: 86px;  
+         background-color: #fff;
+         display: flex;
+         justify-content: space-between;
+         align-items: center;
+         margin: 0 auto;
+         padding: 15px;
+         border-radius: 30px;
+         box-shadow: 2.5px 4.33px 9px 0px rgba(0, 0, 0, 0.5);
       }
    }
 
