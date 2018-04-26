@@ -18,12 +18,24 @@
    .header {
    }
 
-   .main-menu {
-      margin-top: 0;
-   }
 
-   .section {    
+   .section {  
+      &-main {
+         .main {
+            &-block {
+               &-1 {
+                  min-width: auto;
+               }
+            }
+         }
+         
+      }
       
+      &-equipment {
+         .equipment {
+            margin-bottom: 20px;
+         }
+      }
    }
 
 }
@@ -35,11 +47,13 @@
     }
 
     .hamburger {
-        display: block;
+        display: none;
     }    
 
     .header {
-        
+        &-title {
+           display: none;  
+        }
     }
 
     .footer {
@@ -58,36 +72,80 @@
         }
     }
 
-	.main-menu {
-      display: none;
-      background-color: #fff;
-      position: fixed;
-      top: 101px;
-      left: 0;
-      right: 0;
-      text-align: left;
-      margin-left: 0;
-      z-index: 98;
-      padding: 10px 0;
-
-		ul {
-			display: block;
-			height: auto;
-			padding: 0;
-
-			li {
-                margin: 0 0 5px;
-
-                &:last-child {
-                    margin: 0;
-                }
-			}
-		}
-    }
 
    .section {
+      &-title {
+         font-size: 22px;
+      }
       &-main {
-         
+         padding-top: 100px;
+         &-content {
+            flex-direction: column;
+            align-items: center;
+            img {
+               margin-bottom: 30px;
+            }
+            .main {
+               text-align: center;
+               .button {
+                  margin-bottom: 30px;
+               }
+               &-footer {
+                  margin-left: 0;
+               }
+            }
+         }
+      }
+
+      &-podarok {
+         padding-top: 100px;
+         &-content {
+            flex-direction: column;
+            align-items: center;
+         }
+         .podarok {
+            &-1 {
+               margin: 0 auto 30px; 
+            }
+            &-2 {
+               margin: 0 auto 30px;
+            }
+            &-vopros {
+               width: 100%;
+            }
+         }
+         .polu4it-podarok {
+            margin-bottom: 20px;
+         }
+      }
+
+      &-contact {
+         padding-top: 100px;
+         &-content {
+            flex-direction: column;
+            align-items: center;
+         }
+         .podarok-variant {
+            margin: 0 auto 30px;
+            .variant {
+            }
+            &-info {
+               margin-top: 20px;
+            }
+         }
+         &-form {
+            width: 100%;
+            &-title {
+               text-align: center;
+               &::before {
+                  display: none;
+               }
+            }
+         }
+      }
+
+      &-equipment {
+         padding-top: 100px;
       }
 
    }
@@ -123,19 +181,46 @@
     }
 
     .header {
-        &-title {
-           display: none;
-        }
-        .logo {
-           margin: 0;
-        }
-        .button {
-           margin: 0;
-        }
+       &-support, &-sale {
+          display: none;
+       }
+       &-phone {
+          display: block;
+       }
     }
     
    .section {
-     
+      &-main {
+         .main {
+            &-title {
+               font-size: 28px;
+            }
+         }
+      }
+
+      &-contact {
+         &-title {
+            font-size: 20px;
+         }
+         .podarok-variant {
+            
+         }
+         &-form {
+            &-title {
+               font-size: 20px;
+            }
+            .button-div {
+               flex-direction: column;
+               margin: 0;
+               .button {
+                  margin-bottom: 20px;
+                  &-small {
+                     width: 100%;
+                  }
+               }
+            }
+         }
+      }
    }
 
    .more {
@@ -147,6 +232,16 @@
 @media only screen and (max-width : 640px) {
    .more {
       
+   }
+
+   .section {
+      &-main {
+         .main {
+            .button {
+               font-size: 18px;
+            }
+         }
+      }
    }
 }
 
@@ -200,8 +295,60 @@
     }
 
    .section {
-    
+      &-main {
+         img {
+            display: none;
+         }
+         .main {
+            .button {
+               border-radius: 40px;
+            }
+            &-footer {
+               flex-direction: column;
+               align-items: center;
+            }
+            &-block {
+               &-1, &-2 {
+                  border-radius: 15px !important;
+                  margin-bottom: 10px;
+                  padding-bottom: 15px;
+               }
+            }
+         }
+      }
 
+      &-podarok {
+         .podarok {
+            &-1 {
+               margin: 0 auto 20px; 
+            }
+            &-2 {
+               margin: 0 auto 20px;
+            }
+            &-vopros {
+               &-title {
+                  font-size: 20px;
+                  margin-bottom: 15px;
+               }
+               &-text {
+                  font-size: 20px;
+                  margin-bottom: 15px;
+               }
+            }
+         }
+         .polu4it-podarok {
+            margin-bottom: 20px;
+         }
+      }
+
+      &-equipment {
+         .equipment {
+            width: 100%;
+         }
+         .plus {
+            display: none;
+         }
+      }
    }
 
    .modal {
@@ -264,12 +411,7 @@
 
 /* Medium Devices, Desktops */
 @media only screen and (min-width : 992px) {
-	.main-menu {
-		.container {
-			width: auto;
-			padding: 0;
-		}
-  }
+	
   
   .section {
     
