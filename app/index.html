@@ -61,7 +61,7 @@
          </div>
 		</header>      
 		  
-      <section class="section section-main hide">
+      <section class="section section-main" id="main">
          <div class="container">
             <div class="section-main-content">
                <img src="./img/mini-test.png" alt="">
@@ -72,7 +72,7 @@
                      <span>для автоматизации торговли</span> в 
                      Вашем бизнесе и получите подарки
                   </div>
-                  <div class="button">Пройти мини-тест и получить подарки</div>
+                  <button class="button perehod" data-show="podarok" data-hide="main">Пройти мини-тест и получить подарки</button>
                   <div class="grow"></div>
                   <div class="main-footer">
                      <div class="main-block main-block-1">
@@ -91,7 +91,7 @@
          </div>
       </section>
 
-      <section class="section section-podarok ">
+      <section class="section section-podarok hide" id="podarok">
          <div class="container">
             <div class="section-podarok-content">
                <div class="podarok">
@@ -135,7 +135,7 @@
                      </div>
                   </div>
                </div>
-               <div class="podarok-vopros">
+               <div class="podarok-vopros" id="vopros1">
                   <div class="podarok-vopros-title">
                      Вопрос 1 / 3
                   </div>
@@ -150,10 +150,10 @@
                   <label class="checkbox"><input type="radio" name="Ответ1" value="Кафе / ресторан"><span>Кафе / ресторан</span></label>
                      
                   <div class="text-right">
-                     <a href="#" class="arrow-right">Следующий вопрос</a>
+                     <a href="#" class="arrow-right perehod" data-show="vopros2" data-hide="vopros1">Следующий вопрос</a>
                   </div>
                </div>
-               <div class="podarok-vopros hide">
+               <div class="podarok-vopros hide" id="vopros2">
                   <div class="podarok-vopros-title">
                      Вопрос 2 / 3
                   </div>
@@ -171,10 +171,10 @@
                   <label class="checkbox"><input type="radio" name="Ответ2" value="Больше 5-ти"><span>Больше 5-ти</span></label>
                      
                   <div class="text-right">
-                     <a href="#" class="arrow-right">Следующий вопрос</a>
+                     <a href="#" class="arrow-right perehod"  data-show="vopros3" data-hide="vopros2">Следующий вопрос</a>
                   </div>
                </div>
-               <div class="podarok-vopros hide">
+               <div class="podarok-vopros hide" id="vopros3">
                   <div class="podarok-vopros-title">
                      Вопрос 3 / 3
                   </div>
@@ -186,23 +186,20 @@
                   <input type="hidden" name="Вопрос3" value="Планируете ли Вы автоматизировать склад в торговом бизнесе?">
                   <label class="checkbox"><input type="radio" name="Ответ3" value="Да"><span>Да</span></label>
                   <label class="checkbox"><input type="radio" name="Ответ3" value="Нет"><span>Нет</span></label>
-                     <ul>
-                     <li>Да</li>
-                     <li>Нет</li>
-                  </ul>
-                  <div class="polu4it-podarok">
+                   
+                  <button class="polu4it-podarok perehod" data-show="contact" data-hide="podarok">
                      <div class="polu4it-podarok-text">
                         Рассчитать автоматизацию 
                         и получить подарки
                      </div>
                      <img src="./img/gift-1.png" alt="">
-                  </div>
+                  </button>
                </div>               
             </div>
          </div>
       </section>
 
-      <section class="section section-contact hide">
+      <section class="section section-contact hide" id="contact">
          <div class="container">
             <div class="section-contact-title">
                Последний этап.  <br>

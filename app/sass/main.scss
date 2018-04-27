@@ -373,6 +373,7 @@ body {
          align-items: center;
          margin: 0 auto 70px;
          padding: 15px;
+         border: 0;
          border-radius: 30px;
          box-shadow: 2.5px 4.33px 9px 0px rgba(0, 0, 0, 0.5);
       }
@@ -497,6 +498,30 @@ body {
       }
    }
 
+}
+
+.remodal {
+   &-small {
+      max-width: 490px;
+      padding: 50px 25px;
+   }
+}
+
+.modal {
+   text-align: center;
+   &-title {
+      font-size: 24px;
+      font-weight: 700;
+      margin-bottom: 50px;
+   }
+   form {
+      margin: 0 auto;
+      max-width: 320px;
+   }
+   .button {
+      width: 100%;
+      margin: 10px 0;
+   }
 }
 
 #thanks-page {

@@ -57,29 +57,9 @@ $(document).ready(function() {
 
     onscroll();
 
-    $(".main-menu .link").click(function(e) {
-        var $href = $(this).attr('href');
-        if($href.length > 1 && $href.charAt(0) == '#' && $($href).length > 0) {
-            e.preventDefault();
-            var top = $($href).offset().top - headerHeight;
-            $html.stop().animate({ scrollTop: top }, "slow", "swing");
-        }
-
-        if($wnd.width() <= 991) {
-            toggleHamburger();
-        }
-    });
-
     $top.click(function() {
         $html.stop().animate({ scrollTop: 0 }, 'slow', 'swing');
     });
-
-    $(".appliances-link").click(function(e) {
-      e.preventDefault();
-      var title = $(this).data("title");
-      $sfer.find("[name=info]").val("Обсудить сотрудничество: " + title);
-      sfer.open();
-    })
 
     $("input[type=tel]").mask("+7 (999) 999 99 99", {
         completed: function() {
@@ -93,22 +73,6 @@ $(document).ready(function() {
             checkInput($this);
         }
     });
-
-    $hamburger.click(function() {
-        toggleHamburger();
-        return false;
-     });  
-  
-     function toggleHamburger() {
-        $this = $hamburger;
-        if(!$this.hasClass("is-active")) {
-           $this.addClass('is-active');
-           $menu.slideDown('700');
-        } else {
-           $this.removeClass('is-active');
-           $menu.slideUp('700');
-        }
-     }
 
     $(document).on('closing', '.remodal', function (e) {
       $(this).find(".input, .textarea").removeClass("error");
@@ -151,33 +115,12 @@ $(document).ready(function() {
     });
 
 
-    $(".carousel-certificates").owlCarousel({
-      nav: false,
-      dots: true,
-      loop: true,
-      smartSpeed: 500,
-      margin: 30,
-      navText: ['', ''],
-      responsive: {
-         0: { items: 1, mouseDrag: false },
-         480: { items: 2, mouseDrag: true },
-         768: { items: 3 }, 
-         992: { items: 4 }, 
-      },
-   });
-
-   $(".carousel-trademarks").owlCarousel({
-      nav: false,
-      dots: true,
-      loop: true,
-      smartSpeed: 500,
-      margin: 30,
-      navText: ['', ''],
-      responsive: {
-         0: { items: 1, mouseDrag: false },
-         480: { items: 2, mouseDrag: true } 
-      },
-   });
+    $(".perehod").click(function() {
+       var $show = $("#" + $(this).data("show"));
+       var $hide = $("#" + $(this).data("hide"));
+       $show.removeClass("hide");
+       $hide.addClass("hide");
+    })
    
 
 });
