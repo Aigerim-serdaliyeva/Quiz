@@ -16,6 +16,7 @@ body {
 	overflow-x: auto;
    opacity: 1;
    background: #efefef;
+   letter-spacing: -0.5px;
 }
 
 .page-top {
@@ -150,6 +151,38 @@ body {
 
 }
 
+.arrow {
+  &-left, &-right {
+    position: relative;
+    text-decoration: underline;
+    
+    &:after {
+      content: "";
+      position: absolute;
+      width: 32px;
+      height: 16px;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+  }
+
+  &-left {
+    margin-left: 37px;
+    color: $accent;
+    &:after {
+      left: -37px;
+      background-image: url('../img/arrow-left.png');  
+    }
+  }
+
+  &-right {
+    margin-right: 37px;
+    &:after {
+      right: -37px;
+      background-image: url('../img/arrow-right.png');  
+    }
+  }
+}
 
 .section {
     text-align: center;
@@ -308,26 +341,7 @@ body {
             font-weight: 900;
             color: #fff;
             margin-bottom: 25px;
-         }
-         .following {
-            display: inline-block;
-            margin-left: 37px;
-            position: relative;
-            align-items: center;
-            color: $accent;
-            font-weight: 500;
-            border-bottom: 1px solid $accent;
-            &::after {
-               content: "";
-               position: absolute;
-               background-image: url('../img/go-over.png');
-               width: 32px;
-               height: 16px;
-               left: -37px;
-               top: 50%;
-               transform: translateY(-50%);
-            }
-         }
+         }         
          ul {
             padding: 0;
             margin-bottom: 40px;
@@ -456,25 +470,6 @@ body {
 
    &-equipment {
       padding-top: 140px;
-      .go-over {
-         display: inline-block;
-         margin-left: 37px;
-         position: relative;
-         align-items: center;
-         color: $accent;
-         font-weight: 500;
-         border-bottom: 1px solid $accent;
-         &::before {
-            content: "";
-            position: absolute;
-            background-image: url('../img/go-over.png');
-            width: 32px;
-            height: 16px;
-            left: -37px;
-            top: 50%;
-            transform: translateY(-50%);
-         }
-      }
       &-content {
          display: flex;
          flex-wrap: wrap;
