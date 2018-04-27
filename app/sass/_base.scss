@@ -178,3 +178,48 @@ p {
 		color: red;
 	}
 }
+
+
+.checkbox {
+  display: block;
+	position: relative;
+  padding-left: 45px;
+  height: 30px;
+  line-height: 30px;
+  text-align: left;
+  margin-bottom: 15px;
+
+	[type="checkbox"], [type="radio"] {
+		display: none;
+
+		& + span {
+      cursor: pointer;
+      white-space: nowrap;
+
+			&:before, &:after {
+				content: '';
+				position: absolute;
+			}
+
+			&:before {
+				top: -3px;
+				left: 0;
+				width: 23px;
+				height: 23px;
+				border: 3px solid #fff;
+			}
+
+			&:after {
+        display: none;
+        top: -15px;
+        left: 0;
+        width: 35px;
+        height: 37px;
+        background-image: url('../img/check.png');
+			}
+		}
+		&:checked + span:after {
+      display: block;
+		}
+	}
+}
