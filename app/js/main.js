@@ -105,6 +105,7 @@ $(document).ready(function() {
             for(var key in utms) {
               var input = document.createElement("input");
               input.type = "hidden";
+              input.class = "utm-element";
               input.name = key;
               input.value = utms[key];
               $form[0].appendChild(input);
@@ -112,6 +113,15 @@ $(document).ready(function() {
         } else {
           e.preventDefault();
         }
+    });
+
+    $("#page-form").submit(function() {
+      console.log("ok");
+
+      setTimeout(function() {
+        window.location = "/result.html";
+      }, 1000);
+
     });
 
 

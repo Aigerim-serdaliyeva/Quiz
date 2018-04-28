@@ -105,19 +105,10 @@ p {
 
 .input-div {
   position: relative;
+  margin-bottom: 20px;
   
-   img {
-      position: absolute;
-      top: 20px;
-      left: 17px;
-      transform: translate(-50%, -50%);
-   }
-
    .input {
       width: 100%;  
-      border: 2px solid $accent;
-      margin-bottom: 20px;
-      border-radius: 30px;
    }
 }
 
@@ -130,7 +121,9 @@ p {
    background-color: #fff;
    font-family: $default_family, sans-serif;
    padding: 12px 20px 12px 35px;   
-  
+   border: 2px solid $accent;
+   border-radius: 30px;
+
    &.error {
 		border-color: red;
 		color: red;
@@ -187,7 +180,6 @@ p {
   height: 30px;
   line-height: 30px;
   text-align: left;
-  margin-bottom: 15px;
 
 	[type="checkbox"], [type="radio"] {
 		display: none;
@@ -202,7 +194,7 @@ p {
 			}
 
 			&:before {
-				top: -3px;
+        top: 0;
 				left: 0;
 				width: 23px;
 				height: 23px;
@@ -211,7 +203,7 @@ p {
 
 			&:after {
         display: none;
-        top: -15px;
+        top: -12px;
         left: 0;
         width: 35px;
         height: 37px;
@@ -221,5 +213,19 @@ p {
 		&:checked + span:after {
       display: block;
 		}
-	}
+  }
+  
+  &_accent {
+    [type="checkbox"], [type="radio"] {
+      & + span {
+        &:before {
+          border-color: $accent;
+        }
+
+        &:after {
+          background-image: url('../img/check-accent.png');
+        }
+      }
+    }
+  }
 }

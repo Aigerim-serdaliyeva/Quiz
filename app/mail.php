@@ -2,13 +2,11 @@
 
 $method = $_SERVER['REQUEST_METHOD'];
 
-$project_name = "SCK (лэндинг)";
-$admin_email  = "opt@sck-1.kz, client@marketing-time.kz";
-$server_mail = "<opt@sck-1.kz>";
+$project_name = "DreamТОРГ (мини-тест)";
+$admin_email  = "info@dreamtorg.kz, client@marketing-time.kz";
+$server_mail = "<info@dreamtorg.kz>";
 $form_subject = "Заявка";
 
-
-//Script Foreach
 $c = true;
 if ( $method === 'POST' ) {
 
@@ -35,6 +33,25 @@ $headers = "MIME-Version: 1.0" . PHP_EOL .
 'From: '.$project_name.' '.$server_mail. PHP_EOL .
 'Reply-To: '.$admin_email.'' . PHP_EOL;
 
-mail($admin_email, adopt($form_subject), $message, $headers);
+if(mail($admin_email, adopt($form_subject), $message, $headers)) {
+  if($_POST['info'] == "CheckList") {
+    $path = "./files/CheckList.pdf";
+    $filename = "CheckList.pdf";
+  
+    if (file_exists($path)) {
+      header('Content-Description: File Transfer');
+      header('Content-Type: application/octet-stream');
+      header('Content-Disposition: attachment; filename="'.$filename.'"');
+      header('Expires: 0');
+      header('Cache-Control: must-revalidate');
+      header('Pragma: public');
+      header('Content-Length: ' . filesize($path));
+      readfile($path);
+      exit;
+    }
+  } else {
+    header("Location: thanks.html");
+  }
+}
 
-header("Location: /thanks.html");
+
