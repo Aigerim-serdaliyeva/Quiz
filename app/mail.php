@@ -20,7 +20,7 @@ if ( $method === 'POST' ) {
 			";
 		}
 	}
-} 
+}
 
 $message = "<table style='width: 100%;'>$message</table>";
 
