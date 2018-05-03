@@ -174,12 +174,12 @@ p {
 
 
 .checkbox {
-  display: block;
-	position: relative;
-  padding-left: 45px;
-  height: 30px;
-  line-height: 30px;
-  text-align: left;
+   display: block;
+   position: relative;
+   padding-left: 45px;
+   height: 30px;
+   line-height: 30px;
+   text-align: left;
 
 	[type="checkbox"], [type="radio"] {
 		display: none;
@@ -194,7 +194,7 @@ p {
 			}
 
 			&:before {
-        top: 0;
+            top: 0;
 				left: 0;
 				width: 23px;
 				height: 23px;
@@ -202,30 +202,30 @@ p {
 			}
 
 			&:after {
-        display: none;
-        top: -12px;
-        left: 0;
-        width: 35px;
-        height: 37px;
-        background-image: url('../img/check.png');
+            display: none;
+            top: -12px;
+            left: 0;
+            width: 35px;
+            height: 37px;
+            background-image: url('../img/check.png');
 			}
 		}
 		&:checked + span:after {
-      display: block;
+         display: block;
 		}
   }
   
   &_accent {
-    [type="checkbox"], [type="radio"] {
+   [type="checkbox"], [type="radio"] {
       & + span {
-        &:before {
-          border-color: $accent;
-        }
+         &:before {
+            border-color: $accent;
+         }
 
-        &:after {
-          background-image: url('../img/check-accent.png');
-        }
+         &:after {
+            background-image: url('../img/check-accent.png');
+         }
       }
-    }
-  }
+   }
+}
 }

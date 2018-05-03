@@ -42,7 +42,6 @@ body {
 }
 
 .page-wrapper {
-    overflow: hidden;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -153,56 +152,56 @@ body {
 }
 
 .arrow {
-  &-left, &-right {
-    position: relative;
-    text-decoration: underline;
-    
-    &:after {
-      content: "";
-      position: absolute;
-      width: 32px;
-      height: 16px;
-      top: 50%;
-      transform: translateY(-50%);
-    }
-  }
+   &-left, &-right {
+      position: relative;
+      text-decoration: underline;
+      
+      &:after {
+         content: "";
+         position: absolute;
+         width: 32px;
+         height: 16px;
+         top: 50%;
+         transform: translateY(-50%);
+      }
+   }
 
-  &-left {
-    margin-left: 37px;
-    color: $accent;
-    &:after {
-      left: -37px;
-      background-image: url('../img/arrow-left.png');  
-    }
-  }
+   &-left {
+      margin-left: 37px;
+      color: $accent;
+      &:after {
+         left: -37px;
+         background-image: url('../img/arrow-left.png');  
+      }
+   }
 
-  &-right {
-    margin-right: 37px;
-    &:after {
-      right: -37px;
-      background-image: url('../img/arrow-right.png');  
-    }
-  }
+   &-right {
+      margin-right: 37px;
+      &:after {
+         right: -37px;
+         background-image: url('../img/arrow-right.png');  
+      }
+   }
 }
 
 .section {
-    text-align: center;
-    padding: 140px 0 50px;
-    flex-grow: 1;
-    display: flex;
+   text-align: center;
+   padding: 140px 0 50px;
+   flex-grow: 1;
+   display: flex;
 
-    &-title {
-        font-family: $title_family;
-        font-size: 30px;
-        font-weight: 500;
-        color: $title_color;
-        margin: 0 auto 40px;
-        text-align: center;
+   &-title {
+      font-family: $title_family;
+      font-size: 30px;
+      font-weight: 500;
+      color: $title_color;
+      margin: 0 auto 40px;
+      text-align: center;
 
-        .inverse & {
+      .inverse & {
             color: #fff;
-        }
-    }
+      }
+   }
 
    &-main {
       justify-content: space-between;
@@ -328,7 +327,7 @@ body {
 
 
       .podarok-vopros {
-        width: 436px;
+         width: 436px;
          background-color: $accent;
          padding: 30px 20px;
          &-title {
