@@ -8,8 +8,7 @@ $(document).ready(function() {
     var utms = parseGET();
     var headerHeight = 57;
     var $hamburger = $(".hamburger");
-    var sfer = $('[data-remodal-id="obsudit-sodrudni4estvo"]').remodal();
-    var $sfer = $('[data-remodal-id="obsudit-sodrudni4estvo"]');
+    var isPodarok = true;
 
     if(utms && Object.keys(utms).length > 0) {
         window.sessionStorage.setItem('utms', JSON.stringify(utms));
@@ -97,6 +96,44 @@ $(document).ready(function() {
         });
 
         if(formValid) {
+
+            var $data = $form.serializeArray();
+            var $answer1, $answer2, $answer3, $result;
+    
+            for (var i = 0; i < $data.length; i++) {
+              switch ($data[i].name) {
+                case "Ответ1":
+                  $answer1 = $data[i].value;
+                  break;
+                case "Ответ2":
+                  $answer2 = $data[i].value;
+                  break;
+                case "Ответ3":
+                  $answer3 = $data[i].value;
+                  break;          
+              }
+            }
+    
+            if ($answer1 == "Магазин / супермаркет" && $answer3 == "Да") {
+              $result = "shop-market-sklad";
+            }
+            else if ($answer1 == "Магазин / супермаркет" && $answer3 == "Нет") {
+              $result = "shop-market";  
+            }
+            else if ($answer1 == "Бутик" && $answer3 == "Нет") {
+              $result = "butik";
+            }
+            else if ($answer1 == "Бутик" && $answer3 == "Да") {
+              $result = "butik-sklad";
+            }
+            else if ($answer1 == "Аптека") {
+              $result = "apteka";
+            }
+            else if ($answer1 == "Кафе / ресторан") {
+              $result = "cafe-restoran";
+            }
+    
+            window.sessionStorage.setItem("result", $result);  
             
             if(Object.keys(utms).length === 0) {
               utms['utm'] = "Прямой переход";
@@ -115,13 +152,22 @@ $(document).ready(function() {
         }
     });
 
+    $("#uznat_rezultat_i_obratnyi_zvonok").click(function() {
+      $("#hiddenButton").val("Да");
+      isPodarok = true;
+    });
+
+    $("#uznat_rezultat").click(function() {
+      $("#hiddenButton").val("Нет");
+      isPodarok = false;
+    });
+
     $("#page-form").submit(function() {
-      console.log("ok");
-
-      setTimeout(function() {
-        window.location = "/result.html";
-      }, 1000);
-
+      if(isPodarok) {
+        setTimeout(function() {
+          window.location = "/result.html";
+        }, 1000);
+      }
     });
 
 
@@ -130,7 +176,14 @@ $(document).ready(function() {
        var $hide = $("#" + $(this).data("hide"));
        $show.removeClass("hide");
        $hide.addClass("hide");
-    })
+    });
+
+    console.log(window.location);
+
+    if(window.location.pathname == "/result.html") {
+      var $id = window.sessionStorage.getItem("result");
+      $("#" + $id).removeClass("hide");
+    }
    
 
 });
