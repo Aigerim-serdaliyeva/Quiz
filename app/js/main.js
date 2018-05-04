@@ -66,6 +66,8 @@ $(document).ready(function() {
         }
     }); 
 
+    $("input[type=email]").blur();
+
     $("input:required, textarea:required").keyup(function() {
         var $this = $(this);
         if($this.attr('type') != 'tel') {
@@ -162,13 +164,13 @@ $(document).ready(function() {
       isPodarok = false;
     });
 
-    $("#page-form").submit(function() {
-      if(isPodarok) {
-        setTimeout(function() {
-          window.location = "/result.html";
-        }, 1000);
-      }
-    });
+    // $("#page-form").submit(function() {
+    //   if(isPodarok) {
+    //     setTimeout(function() {
+    //       window.location = "/result.html";
+    //     }, 1000);
+    //   }
+    // });
 
 
     $(".perehod").click(function() {
@@ -176,9 +178,17 @@ $(document).ready(function() {
        var $hide = $("#" + $(this).data("hide"));
        $show.removeClass("hide");
        $hide.addClass("hide");
-    });
 
-    console.log(window.location);
+       if ($(this).hasClass("arrow-right")) {
+         var id = $(this).closest(".podarok-vopros").attr("id");
+
+         if (id == "vopros1") {
+            $(".podarok-1").removeClass("locked");
+         } else if (id == "vopros2") {
+            $(".podarok-2").removeClass("locked");           
+         }
+       }
+    });
 
     if(window.location.pathname == "/result.html") {
       var $id = window.sessionStorage.getItem("result");

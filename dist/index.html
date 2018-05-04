@@ -2,6 +2,13 @@
 <html lang="ru">
 
 <head>
+  <!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-K88HKB2');</script>
+    <!-- End Google Tag Manager -->
 	<meta charset="utf-8">
 
 	<title>DreamТОРГ | Автоматизация торговли по всему Казахстану</title>
@@ -19,7 +26,10 @@
 </head>
 
 <body>
-
+  <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K88HKB2"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
   <div class="container">
 
     <form action="/mail.php" method="post" id="page-form">
@@ -95,24 +105,27 @@
       <section class="section section-podarok hide" id="podarok">
         <div class="section-podarok-content">
           <div class="podaroks">
-              <div class="podarok-1">
+              <div class="podarok podarok-1 locked">
                 <div class="podarok-title">
                     Подарок 1
                 </div>
-                <img src="./img/gift.jpg" alt="">
-                <div class="podarok-1-text">
-                    Чек-лист "Как увеличить поток 
-                    клиентов в торговом бизнесе"
+                <div class="podarok-content">
+                  <img src="./img/gift.jpg" alt="">
+                  <div class="podarok-text">
+                      Чек-лист "Как увеличить поток <br>
+                      клиентов в торговом бизнесе"
+                  </div>  
                 </div>
               </div>
-              <div class="podarok-2">
+              <div class="podarok podarok-2 locked">
                 <div class="podarok-title">
                     Подарок 2
                 </div>
-                <div class="podarok-2-text">
+                <div class="podarok-content">
+                  <div class="podarok-text">
                     3 варианта на выбор
-                </div>
-                <div class="podarok-variant">
+                  </div>
+                  <div class="podarok-variant">
                     <div class="variant">
                       <img src="./img/skidka.png" alt="">
                       <div class="variant-title">
@@ -132,6 +145,7 @@
                           Сканер штрихкодов
                       </div>
                     </div>
+                  </div>
                 </div>
               </div>
           </div>
@@ -199,6 +213,8 @@
       </section>
     
       <section class="section section-contact hide" id="contact">
+          <input type="text" style="opacity: 0; height: 0;" autofocus="true">  
+
           <div class="section-contact-title">
             Последний этап.  <br>
             Укажите свои контактные данные, по которым Вы можете получить подарок и узнать результат теста <br>
@@ -211,7 +227,7 @@
                                   
               <div class="variant">      
                 <label class="checkbox checkbox_accent">
-                  <input type="checkbox" name="Вариант1" value="Скидка 20% на оборудование" checked>
+                  <input type="radio" name="Вариант" value="Скидка 20% на оборудование" checked>
                   <span></span>
                 </label>        
                 <div class="variant-img">
@@ -225,7 +241,7 @@
 
                 <div class="variant">
                   <label class="checkbox checkbox_accent">
-                    <input type="checkbox" name="Вариант2" value="Принтер чеков"> 
+                    <input type="radio" name="Вариант" value="Принтер чеков"> 
                     <span></span>
                   </label>
                   <div class="variant-img">
@@ -237,7 +253,7 @@
                 </div>
                 <div class="variant">
                   <label class="checkbox checkbox_accent">
-                    <input type="checkbox" name="Вариант3" value="Сканер штрихкодов">
+                    <input type="radio" name="Вариант" value="Сканер штрихкодов">
                     <span></span>
                   </label>
                   <div class="variant-img">
@@ -251,9 +267,9 @@
             </div>
 
             <div class="section-contact-form">
-                <div class="section-contact-form-title">Успейте выбрать подарок <br>
+              <div class="section-contact-form-title">Успейте выбрать подарок <br>
                       и закажите бесплатную консультацию нашего специалиста</div>
-
+                  
                 
                   <div class="input-div">
                       <input type="text" class="input" name="name" placeholder="Введите Имя">
@@ -281,7 +297,7 @@
             </div>
 
           </div>
-       </section>
+      </section>
       
     </div>  
     </form>    

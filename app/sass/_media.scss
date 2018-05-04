@@ -313,8 +313,14 @@
       }
 
       &-equipment {
+        &-content {
+          justify-content: space-between;
+        }
+        &-text {
+          text-align: left;
+        }
          .equipment {
-            width: 100%;
+            width: 48%;
          }
          .plus {
             display: none;
