@@ -31,7 +31,7 @@ gulp.task('libs-js', function() {
         'node_modules/remodal/dist/remodal.min.js',
         'node_modules/@fancyapps/fancybox/dist/jquery.fancybox.min.js',
         'node_modules/owl.carousel/dist/owl.carousel.min.js',
-        'node_modules/jquery.maskedinput/src/jquery.maskedinput.js',
+        'node_modules/jquery-mask-plugin/dist/jquery.mask.min.js',
         'node_modules/slick-carousel/slick/slick.js'        
     ])
     .pipe(concat('libs.min.js'))

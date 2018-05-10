@@ -60,8 +60,8 @@ $(document).ready(function() {
         $html.stop().animate({ scrollTop: 0 }, 'slow', 'swing');
     });
 
-    $("input[type=tel]").mask("+7 (999) 999 99 99", {
-        completed: function() {
+    $("input[type=tel]").mask("+7 (000) 000 00 00", {
+        onComplete: function() {
             $(this).removeClass('error');
         }
     }); 
@@ -163,15 +163,6 @@ $(document).ready(function() {
       $("#hiddenButton").val("Нет");
       isPodarok = false;
     });
-
-    // $("#page-form").submit(function() {
-    //   if(isPodarok) {
-    //     setTimeout(function() {
-    //       window.location = "/result.html";
-    //     }, 1000);
-    //   }
-    // });
-
 
     $(".perehod").click(function() {
        var $show = $("#" + $(this).data("show"));
