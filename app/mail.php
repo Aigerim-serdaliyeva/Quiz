@@ -3,7 +3,7 @@
 $method = $_SERVER['REQUEST_METHOD'];
 
 $project_name = "DreamТОРГ (мини-тест)";
-$admin_email  = "info@dreamtorg.kz, client@marketing-time.kz, info@avtomatizacia.kz";
+$admin_email  = "client@marketing-time.kz, info@avtomatizacia.kz";
 $server_mail = "<info@dreamtorg.kz>";
 $form_subject = "Заявка";
 
@@ -35,7 +35,7 @@ $headers = "MIME-Version: 1.0" . PHP_EOL .
 
 if(mail($admin_email, adopt($form_subject), $message, $headers)) {
 
-  // добавление лид в bitrix
+// добавление лид в bitrix
 $data['LOGIN']='bdm1@marketing-time.kz'; //На кого рапаковывается
 $data['PASSWORD']='passadoble1983'; //пароль
 $subdomain='mtkz'; // поддомен битрикс24 mtkz.bitrix24.ru. Смотрите внизу
@@ -104,6 +104,7 @@ if(!preg_match('|Лид добавлен|', curl_exec($ch))){
   }
   fwrite($flogs,date("d-m-Y H:i:s")." --- Добавлен контакт в BITRIX24\n".join(', ',$d_)."\n");
 }
+
 
   if($_POST['info'] == "CheckList") {
     $path = "./files/CheckList.pdf";
