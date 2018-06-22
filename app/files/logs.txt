@@ -1,0 +1,114 @@
+17-06-2018 15:00:14 --- Добавлен контакт в BITRIX24
+LOGIN : bdm1@marketing-time.kz, PASSWORD : passadoble1983, NAME : Nurbol Test, TITLE : Лид Nurbol Test, PHONE_MOBILE : 71111111111, SOURCE_ID : Dreamtorg.kz, UF_CRM_1463741187 : dreamtorg.kz, UF_CRM_1463742789 : : 
+17-06-2018 15:03:36 --- Добавлен контакт в BITRIX24
+LOGIN : bdm1@marketing-time.kz, PASSWORD : passadoble1983, NAME : Nurbol Test2, TITLE : Лид Nurbol Test2, PHONE_MOBILE : 72222222222, SOURCE_ID : Dreamtorg.kz, UF_CRM_1463741187 : Dreamtorg.kz, UF_CRM_1463742789 : : 
+17-06-2018 15:23:00 --- Добавлен контакт в BITRIX24
+LOGIN : bdm1@marketing-time.kz, PASSWORD : passadoble1983, NAME : Nurbol Test3, TITLE : Лид Nurbol Test3, PHONE_MOBILE : 73333333333, SOURCE_ID : Dreamtorg.kz, UF_CRM_1463741187 : Dreamtorg.kz, UF_CRM_1463742789 : : 
+18-06-2018 17:14:52 --- Добавлен контакт в BITRIX24
+LOGIN : bdm1@marketing-time.kz, PASSWORD : passadoble1983, NAME : test, TITLE : Лид test, PHONE_MOBILE : 73333333333, SOURCE_ID : Dreamtorg.kz, UF_CRM_1463741187 : Dreamtorg.kz, UF_CRM_1463742789 : : 
+18-06-2018 17:15:39 --- Добавлен контакт в BITRIX24
+LOGIN : bdm1@marketing-time.kz, PASSWORD : passadoble1983, NAME : test, TITLE : Лид test, PHONE_MOBILE : 73333333333, SOURCE_ID : Dreamtorg.kz, EMAIL_WORK : test@mail.ru, UF_CRM_1463741187 : Dreamtorg.kz, UF_CRM_1463742789 : : 
+18-06-2018 17:16:25 --- Добавлен контакт в BITRIX24
+LOGIN : bdm1@marketing-time.kz, PASSWORD : passadoble1983, NAME : TEST, TITLE : Лид TEST, PHONE_MOBILE : 73333333333, SOURCE_ID : Dreamtorg.kz, EMAIL_WORK : test@mail.ru, UF_CRM_1463741187 : Dreamtorg.kz, UF_CRM_1463742789 : : 
+18-06-2018 17:25:44 --- Добавлен контакт в BITRIX24
+LOGIN : bdm1@marketing-time.kz, PASSWORD : passadoble1983, NAME : test, TITLE : Лид test, PHONE_MOBILE : 73333333333, SOURCE_ID : Dreamtorg.kz, EMAIL_WORK : test@mail.ru, UF_CRM_1463741187 : Dreamtorg.kz, UF_CRM_1463742789 : : 
+18-06-2018 17:26:02 --- Добавлен контакт в BITRIX24
+LOGIN : bdm1@marketing-time.kz, PASSWORD : passadoble1983, NAME : test2, TITLE : Лид test2, PHONE_MOBILE : 73333333333, SOURCE_ID : Dreamtorg.kz, UF_CRM_1463741187 : Dreamtorg.kz, UF_CRM_1463742789 : : 
+18-06-2018 17:26:47 --- Добавлен контакт в BITRIX24
+LOGIN : bdm1@marketing-time.kz, PASSWORD : passadoble1983, NAME : test, TITLE : Лид test, PHONE_MOBILE : 73333333333, SOURCE_ID : Dreamtorg.kz, EMAIL_WORK : test@mail.ru, UF_CRM_1463741187 : Dreamtorg.kz, UF_CRM_1463742789 : : 
+18-06-2018 17:27:14 --- Добавлен контакт в BITRIX24
+LOGIN : bdm1@marketing-time.kz, PASSWORD : passadoble1983, NAME : test, TITLE : Лид test, PHONE_MOBILE : 73333333333, SOURCE_ID : Dreamtorg.kz, EMAIL_WORK : test@mail.ru, UF_CRM_1463741187 : Dreamtorg.kz, UF_CRM_1463742789 : : 
+18-06-2018 17:29:15 --- Добавлен контакт в BITRIX24
+LOGIN : bdm1@marketing-time.kz, PASSWORD : passadoble1983, NAME : test, TITLE : Лид test, PHONE_MOBILE : 77777777777, SOURCE_ID : Dreamtorg.kz, EMAIL_WORK : test@test.kz, UF_CRM_1463741187 : Dreamtorg.kz, UF_CRM_1463742789 : : 
+18-06-2018 17:29:15 --- Добавлен контакт в BITRIX24
+LOGIN : bdm1@marketing-time.kz, PASSWORD : passadoble1983, NAME : test, TITLE : Лид test, PHONE_MOBILE : 77777777777, SOURCE_ID : Dreamtorg.kz, EMAIL_WORK : test@test.kz, UF_CRM_1463741187 : Dreamtorg.kz, UF_CRM_1463742789 : : 
+18-06-2018 17:44:30 --- Добавлен контакт в BITRIX24
+LOGIN : bdm1@marketing-time.kz, PASSWORD : passadoble1983, NAME : test, TITLE : Лид test, PHONE_MOBILE : 77777777777, SOURCE_ID : Dreamtorg.kz, EMAIL_WORK : test@test.kz, UF_CRM_1463741187 : Dreamtorg.kz, UF_CRM_1463742789 : : 
+18-06-2018 17:49:32 --- Добавлен контакт в BITRIX24
+LOGIN : bdm1@marketing-time.kz, PASSWORD : passadoble1983, NAME : Nurbol Test, TITLE : Лид Nurbol Test, PHONE_MOBILE : 77777777777, SOURCE_ID : Dreamtorg.kz, EMAIL_WORK : kuma_official@mail.ru, UF_CRM_1463741187 : Dreamtorg.kz, UF_CRM_1463742789 : : 
+18-06-2018 17:50:11 --- Добавлен контакт в BITRIX24
+LOGIN : bdm1@marketing-time.kz, PASSWORD : passadoble1983, NAME : Nurbol Test2, TITLE : Лид Nurbol Test2, PHONE_MOBILE : 77777777777, SOURCE_ID : Dreamtorg.kz, EMAIL_WORK : kuma_official@mail.ru, UF_CRM_1463741187 : Dreamtorg.kz, UF_CRM_1463742789 : : 
+18-06-2018 17:51:45 --- Добавлен контакт в BITRIX24
+LOGIN : bdm1@marketing-time.kz, PASSWORD : passadoble1983, NAME : Дархан, TITLE : Лид Дархан, PHONE_MOBILE : 77782730671, SOURCE_ID : Dreamtorg.kz, EMAIL_WORK : sanjan.darik@bk.ru, UF_CRM_1463741187 : Dreamtorg.kz, UF_CRM_1463742789 : : 
+18-06-2018 17:53:45 --- Добавлен контакт в BITRIX24
+LOGIN : bdm1@marketing-time.kz, PASSWORD : passadoble1983, NAME : test, TITLE : Лид test, PHONE_MOBILE : 77777777777, SOURCE_ID : Dreamtorg.kz, EMAIL_WORK : test@test.kz, UF_CRM_1463741187 : Dreamtorg.kz, UF_CRM_1463742789 : : 
+18-06-2018 17:54:35 --- Добавлен контакт в BITRIX24
+LOGIN : bdm1@marketing-time.kz, PASSWORD : passadoble1983, NAME : test, TITLE : Лид test, PHONE_MOBILE : 77777777777, SOURCE_ID : Dreamtorg.kz, EMAIL_WORK : test@test.kz, UF_CRM_1463741187 : Dreamtorg.kz, UF_CRM_1463742789 : : 
+18-06-2018 17:57:43 --- Добавлен контакт в BITRIX24
+LOGIN : bdm1@marketing-time.kz, PASSWORD : passadoble1983, NAME : test, TITLE : Лид test, PHONE_MOBILE : 77777777777, SOURCE_ID : Dreamtorg.kz, EMAIL_WORK : test@test.kz, UF_CRM_1463741187 : Dreamtorg.kz, UF_CRM_1463742789 : : 
+18-06-2018 17:59:18 --- Добавлен контакт в BITRIX24
+LOGIN : bdm1@marketing-time.kz, PASSWORD : passadoble1983, NAME : test, TITLE : Лид test, PHONE_MOBILE : 77777777777, SOURCE_ID : Dreamtorg.kz, UF_CRM_1463741187 : Dreamtorg.kz, UF_CRM_1463742789 : : 
+18-06-2018 17:59:22 --- Добавлен контакт в BITRIX24
+LOGIN : bdm1@marketing-time.kz, PASSWORD : passadoble1983, NAME : Nurbol Test (левая кнопка), TITLE : Лид Nurbol Test (левая кнопка), PHONE_MOBILE : 77777777777, SOURCE_ID : Dreamtorg.kz, EMAIL_WORK : kuma_official@mail.ru, UF_CRM_1463741187 : Dreamtorg.kz, UF_CRM_1463742789 : : 
+18-06-2018 17:59:59 --- Добавлен контакт в BITRIX24
+LOGIN : bdm1@marketing-time.kz, PASSWORD : passadoble1983, NAME : Nurbol Test (правая кнопка), TITLE : Лид Nurbol Test (правая кнопка), PHONE_MOBILE : 77777777777, SOURCE_ID : Dreamtorg.kz, EMAIL_WORK : kuma_official@mail.ru, UF_CRM_1463741187 : Dreamtorg.kz, UF_CRM_1463742789 : : 
+18-06-2018 18:01:51 --- Добавлен контакт в BITRIX24
+LOGIN : bdm1@marketing-time.kz, PASSWORD : passadoble1983, NAME : Nurbol Test (левая кнопка), TITLE : Лид Nurbol Test (левая кнопка), PHONE_MOBILE : 77777777777, SOURCE_ID : Dreamtorg.kz, EMAIL_WORK : kuma_official@mail.ru, UF_CRM_1463741187 : Dreamtorg.kz, UF_CRM_1463742789 : : 
+18-06-2018 18:28:39 --- Добавлен контакт в BITRIX24
+LOGIN : bdm1@marketing-time.kz, PASSWORD : passadoble1983, NAME : Nurbol (левая кнопка), TITLE : Лид Nurbol (левая кнопка), PHONE_MOBILE : 73333333333, SOURCE_ID : Dreamtorg.kz, EMAIL_WORK : client@marketing-time.kz, UF_CRM_1463741187 : Dreamtorg.kz, UF_CRM_1463742789 : : 
+18-06-2018 18:31:50 --- Добавлен контакт в BITRIX24
+LOGIN : bdm1@marketing-time.kz, PASSWORD : passadoble1983, NAME : Nurbol (правая кнопка), TITLE : Лид Nurbol (правая кнопка), PHONE_MOBILE : 77777777777, SOURCE_ID : Dreamtorg.kz, EMAIL_WORK : kuma_official@mail.ru, UF_CRM_1463741187 : Dreamtorg.kz, UF_CRM_1463742789 : : 
+18-06-2018 19:37:00 --- Добавлен контакт в BITRIX24
+LOGIN : bdm1@marketing-time.kz, PASSWORD : passadoble1983, NAME : , TITLE : Лид , SOURCE_ID : Dreamtorg.kz, UF_CRM_1463741187 : Dreamtorg.kz, UF_CRM_1463742789 : : 
+18-06-2018 19:37:28 --- Добавлен контакт в BITRIX24
+LOGIN : bdm1@marketing-time.kz, PASSWORD : passadoble1983, NAME : test, TITLE : Лид test, PHONE_MOBILE : 71111111111, SOURCE_ID : Dreamtorg.kz, UF_CRM_1463741187 : Dreamtorg.kz, UF_CRM_1463742789 : : 
+19-06-2018 09:39:19 --- Добавлен контакт в BITRIX24
+LOGIN : bdm1@marketing-time.kz, PASSWORD : passadoble1983, NAME : test, TITLE : Лид test, PHONE_MOBILE : 77777777777, SOURCE_ID : Dreamtorg.kz, EMAIL_WORK : test@test.kz, UF_CRM_1463741187 : Dreamtorg.kz, UF_CRM_1463742789 : : 
+19-06-2018 10:05:59 --- Добавлен контакт в BITRIX24
+LOGIN : bdm1@marketing-time.kz, PASSWORD : passadoble1983, NAME : test, TITLE : Лид test, PHONE_MOBILE : 77777777777, SOURCE_ID : Dreamtorg.kz, EMAIL_WORK : test@test.kz, UF_CRM_1463741187 : Dreamtorg.kz, UF_CRM_1463742789 : : 
+19-06-2018 11:07:18 --- Добавлен контакт в BITRIX24
+LOGIN : bdm1@marketing-time.kz, PASSWORD : passadoble1983, NAME : , TITLE : Лид , PHONE_MOBILE : 77476677888, SOURCE_ID : Dreamtorg.kz, EMAIL_WORK : ezhakayeva@mail.ru, UF_CRM_1463741187 : Dreamtorg.kz, UF_CRM_1463742789 : : 
+19-06-2018 14:46:04 --- Добавлен контакт в BITRIX24
+LOGIN : bdm1@marketing-time.kz, PASSWORD : passadoble1983, NAME : Медет, TITLE : Лид Медет, PHONE_MOBILE : 77079800860, SOURCE_ID : Dreamtorg.kz, UF_CRM_1463741187 : Dreamtorg.kz, UF_CRM_1463742789 : : 
+19-06-2018 22:21:22 --- Добавлен контакт в BITRIX24
+LOGIN : bdm1@marketing-time.kz, PASSWORD : passadoble1983, NAME : Жаслан, TITLE : Лид Жаслан, PHONE_MOBILE : 77077561771, SOURCE_ID : Dreamtorg.kz, EMAIL_WORK : Zhasik-zhakesh@mail.ru, UF_CRM_1463741187 : Dreamtorg.kz, UF_CRM_1463742789 : : 
+20-06-2018 01:51:09 --- Добавлен контакт в BITRIX24
+LOGIN : bdm1@marketing-time.kz, PASSWORD : passadoble1983, NAME : Arzan Avangard, TITLE : Лид Arzan Avangard, PHONE_MOBILE : 77079241123, SOURCE_ID : Dreamtorg.kz, EMAIL_WORK : arzanavangard@mail.ru, UF_CRM_1463741187 : Dreamtorg.kz, UF_CRM_1463742789 : : 
+20-06-2018 02:29:47 --- Добавлен контакт в BITRIX24
+LOGIN : bdm1@marketing-time.kz, PASSWORD : passadoble1983, NAME : , TITLE : Лид , PHONE_MOBILE : 77018886505, SOURCE_ID : Dreamtorg.kz, EMAIL_WORK : ainurs88@mail.ru, UF_CRM_1463741187 : Dreamtorg.kz, UF_CRM_1463742789 : : 
+20-06-2018 07:39:09 --- Добавлен контакт в BITRIX24
+LOGIN : bdm1@marketing-time.kz, PASSWORD : passadoble1983, NAME : Талгат , TITLE : Лид Талгат , PHONE_MOBILE : 77072444282, SOURCE_ID : Dreamtorg.kz, EMAIL_WORK : 4_my_job@mail.ru, UF_CRM_1463741187 : Dreamtorg.kz, UF_CRM_1463742789 : : 
+20-06-2018 10:11:17 --- Добавлен контакт в BITRIX24
+LOGIN : bdm1@marketing-time.kz, PASSWORD : passadoble1983, NAME : , TITLE : Лид , PHONE_MOBILE : 77018886505, SOURCE_ID : Dreamtorg.kz, EMAIL_WORK : ainurs88@mail.ru, UF_CRM_1463741187 : Dreamtorg.kz, UF_CRM_1463742789 : : 
+20-06-2018 11:33:33 --- Добавлен контакт в BITRIX24
+LOGIN : bdm1@marketing-time.kz, PASSWORD : passadoble1983, NAME : Елена, TITLE : Лид Елена, PHONE_MOBILE : 78777839569, SOURCE_ID : Dreamtorg.kz, EMAIL_WORK : elena-kazieva@mail.ru, UF_CRM_1463741187 : Dreamtorg.kz, UF_CRM_1463742789 : : 
+20-06-2018 12:46:00 --- Добавлен контакт в BITRIX24
+LOGIN : bdm1@marketing-time.kz, PASSWORD : passadoble1983, NAME : test, TITLE : Лид test, PHONE_MOBILE : 77777777777, SOURCE_ID : Dreamtorg.kz, EMAIL_WORK : test@test.kz, UF_CRM_1463741187 : Dreamtorg.kz, UF_CRM_1463742789 : : 
+20-06-2018 15:22:33 --- Добавлен контакт в BITRIX24
+LOGIN : bdm1@marketing-time.kz, PASSWORD : passadoble1983, NAME : Nurbol Test (левая кнопка), TITLE : Лид Nurbol Test (левая кнопка), PHONE_MOBILE : 73333333333, SOURCE_ID : Dreamtorg.kz, EMAIL_WORK : kuma_official@mail.ru, UF_CRM_1463741187 : Dreamtorg.kz, UF_CRM_1463742789 : : 
+20-06-2018 15:27:23 --- Добавлен контакт в BITRIX24
+LOGIN : bdm1@marketing-time.kz, PASSWORD : passadoble1983, NAME : Nurbol Test (левая кнопка), TITLE : Лид Nurbol Test (левая кнопка), PHONE_MOBILE : 73333333333, SOURCE_ID : Dreamtorg.kz, EMAIL_WORK : kuma_official@mail.ru, UF_CRM_1463741187 : Dreamtorg.kz, UF_CRM_1463742789 : : 
+20-06-2018 15:28:56 --- Добавлен контакт в BITRIX24
+LOGIN : bdm1@marketing-time.kz, PASSWORD : passadoble1983, NAME : Nurbol Test (левая кнопка), TITLE : Лид Nurbol Test (левая кнопка), PHONE_MOBILE : 73333333333, SOURCE_ID : Dreamtorg.kz, EMAIL_WORK : kuma_official@mail.ru, UF_CRM_1463741187 : Dreamtorg.kz, UF_CRM_1463742789 : : 
+20-06-2018 15:32:32 --- Добавлен контакт в BITRIX24
+LOGIN : bdm1@marketing-time.kz, PASSWORD : passadoble1983, NAME : test2, TITLE : Лид test2, PHONE_MOBILE : 78777777777, SOURCE_ID : Dreamtorg.kz, EMAIL_WORK : test@test.kz, UF_CRM_1463741187 : Dreamtorg.kz, UF_CRM_1463742789 : : 
+20-06-2018 15:35:46 --- Добавлен контакт в BITRIX24
+LOGIN : bdm1@marketing-time.kz, PASSWORD : passadoble1983, NAME : test, TITLE : Лид test, PHONE_MOBILE : 77777777777, SOURCE_ID : Dreamtorg.kz, EMAIL_WORK : pm4@marketing-time.kz, UF_CRM_1463741187 : Dreamtorg.kz, UF_CRM_1463742789 : : 
+20-06-2018 15:36:39 --- Добавлен контакт в BITRIX24
+LOGIN : bdm1@marketing-time.kz, PASSWORD : passadoble1983, NAME : test, TITLE : Лид test, PHONE_MOBILE : 77777777777, SOURCE_ID : Dreamtorg.kz, EMAIL_WORK : pm4@marketing-time.kz, UF_CRM_1463741187 : Dreamtorg.kz, UF_CRM_1463742789 : : 
+20-06-2018 15:37:39 --- Добавлен контакт в BITRIX24
+LOGIN : bdm1@marketing-time.kz, PASSWORD : passadoble1983, NAME : test, TITLE : Лид test, PHONE_MOBILE : 77777777777, SOURCE_ID : Dreamtorg.kz, EMAIL_WORK : pm4@marketing-time.kz, UF_CRM_1463741187 : Dreamtorg.kz, UF_CRM_1463742789 : : 
+20-06-2018 15:38:05 --- Добавлен контакт в BITRIX24
+LOGIN : bdm1@marketing-time.kz, PASSWORD : passadoble1983, NAME : Nurbol Test (правая кнопка), TITLE : Лид Nurbol Test (правая кнопка), PHONE_MOBILE : 73333333333, SOURCE_ID : Dreamtorg.kz, EMAIL_WORK : kuma_official@mail.ru, UF_CRM_1463741187 : Dreamtorg.kz, UF_CRM_1463742789 : : 
+20-06-2018 15:38:33 --- Добавлен контакт в BITRIX24
+LOGIN : bdm1@marketing-time.kz, PASSWORD : passadoble1983, NAME : test, TITLE : Лид test, PHONE_MOBILE : 77777777777, SOURCE_ID : Dreamtorg.kz, EMAIL_WORK : pm4@marketing-time.kz, UF_CRM_1463741187 : Dreamtorg.kz, UF_CRM_1463742789 : : 
+20-06-2018 22:24:26 --- Добавлен контакт в BITRIX24
+LOGIN : bdm1@marketing-time.kz, PASSWORD : passadoble1983, NAME : , TITLE : Лид , SOURCE_ID : Dreamtorg.kz, UF_CRM_1463741187 : Dreamtorg.kz, UF_CRM_1463742789 : : 
+21-06-2018 10:45:16 --- Добавлен контакт в BITRIX24
+LOGIN : bdm1@marketing-time.kz, PASSWORD : passadoble1983, NAME : Елена, TITLE : Лид Елена, PHONE_MOBILE : 77775515891, SOURCE_ID : Dreamtorg.kz, EMAIL_WORK : vorvalyova@mail.ru, UF_CRM_1463741187 : Dreamtorg.kz, UF_CRM_1463742789 : : 
+21-06-2018 15:38:39 --- Добавлен контакт в BITRIX24
+LOGIN : bdm1@marketing-time.kz, PASSWORD : passadoble1983, NAME : Махаббат, TITLE : Лид Махаббат, PHONE_MOBILE : 7017713888, SOURCE_ID : Dreamtorg.kz, EMAIL_WORK : mahabbatuzo@mail.ru, UF_CRM_1463741187 : Dreamtorg.kz, UF_CRM_1463742789 : : 
+21-06-2018 23:01:49 --- Добавлен контакт в BITRIX24
+LOGIN : bdm1@marketing-time.kz, PASSWORD : passadoble1983, NAME : , TITLE : Лид , SOURCE_ID : Dreamtorg.kz, UF_CRM_1463741187 : Dreamtorg.kz, UF_CRM_1463742789 : : 
+21-06-2018 23:04:34 --- Добавлен контакт в BITRIX24
+LOGIN : bdm1@marketing-time.kz, PASSWORD : passadoble1983, NAME : , TITLE : Лид , SOURCE_ID : Dreamtorg.kz, UF_CRM_1463741187 : Dreamtorg.kz, UF_CRM_1463742789 : : 
+22-06-2018 00:55:56 --- Добавлен контакт в BITRIX24
+LOGIN : bdm1@marketing-time.kz, PASSWORD : passadoble1983, NAME : 700803401383, TITLE : Лид 700803401383, PHONE_MOBILE : 77077474733, SOURCE_ID : Dreamtorg.kz, EMAIL_WORK : aigera07@gmail.com, UF_CRM_1463741187 : Dreamtorg.kz, UF_CRM_1463742789 : : 
+22-06-2018 01:03:41 --- Добавлен контакт в BITRIX24
+LOGIN : bdm1@marketing-time.kz, PASSWORD : passadoble1983, NAME : Шолпан, TITLE : Лид Шолпан, PHONE_MOBILE : 78778945306, SOURCE_ID : Dreamtorg.kz, EMAIL_WORK : sholpan_1980@mail.ru, UF_CRM_1463741187 : Dreamtorg.kz, UF_CRM_1463742789 : : 
+22-06-2018 01:03:43 --- Добавлен контакт в BITRIX24
+LOGIN : bdm1@marketing-time.kz, PASSWORD : passadoble1983, NAME : Шолпан, TITLE : Лид Шолпан, PHONE_MOBILE : 78778945306, SOURCE_ID : Dreamtorg.kz, EMAIL_WORK : sholpan_1980@mail.ru, UF_CRM_1463741187 : Dreamtorg.kz, UF_CRM_1463742789 : : 
+22-06-2018 09:32:00 --- Добавлен контакт в BITRIX24
+LOGIN : bdm1@marketing-time.kz, PASSWORD : passadoble1983, NAME : Шолпан, TITLE : Лид Шолпан, PHONE_MOBILE : 78778945306, SOURCE_ID : Dreamtorg.kz, EMAIL_WORK : sholpan_1980@mail.ru, UF_CRM_1463741187 : Dreamtorg.kz, UF_CRM_1463742789 : : 
+22-06-2018 09:32:02 --- Добавлен контакт в BITRIX24
+LOGIN : bdm1@marketing-time.kz, PASSWORD : passadoble1983, NAME : Шолпан, TITLE : Лид Шолпан, PHONE_MOBILE : 78778945306, SOURCE_ID : Dreamtorg.kz, EMAIL_WORK : sholpan_1980@mail.ru, UF_CRM_1463741187 : Dreamtorg.kz, UF_CRM_1463742789 : : 
